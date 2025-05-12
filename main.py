@@ -10,10 +10,10 @@ screen = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("Golf")
 
 
-win=pygame.mixer.Sound("/home/sachin/Desktop/YT/golf/win.mp3")
-conq=pygame.mixer.Sound("/home/sachin/Desktop/YT/golf/conq.wav")
-hit=pygame.mixer.Sound("/home/sachin/Desktop/YT/golf/hit.mp3")
-shot=pygame.mixer.Sound("/home/sachin/Desktop/YT/golf/shot.wav")
+win=pygame.mixer.Sound("/win.mp3")
+conq=pygame.mixer.Sound("/conq.wav")
+hit=pygame.mixer.Sound("/hit.mp3")
+shot=pygame.mixer.Sound("/shot.wav")
 
 WHITE = (255,255,255)
 LIGHT_GREEN = (0,0,0)
